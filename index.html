@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>LotoTech | Digital Store</title>
+
+<!-- Font Awesome Icons -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+<style>
+html {
+    scroll-behavior: smooth;
+}
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #f5f7fa;
+    color: #333;
+}
+
+/* Header */
+header {
+    background: #0a1a2f;
+    padding: 15px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+}
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #00d4ff;
+}
+
+/* Navigation */
+nav a {
+    color: white;
+    margin: 0 15px;
+    text-decoration: none;
+    font-size: 18px;
+}
+nav a i {
+    margin-right: 6px;
+}
+
+/* Sections */
+section {
+    padding: 100px 40px;
+    min-height: 100vh;
+    text-align: center;
+}
+#home {
+    background: linear-gradient(to right, #00d4ff, #0052cc);
+    color: white;
+}
+#products {
+    background: white;
+}
+#about {
+    background: #eef2f7;
+}
+
+/* Product Cards */
+.products {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.card {
+    background: white;
+    width: 250px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+.card i {
+    font-size: 40px;
+    color: #0052cc;
+}
+
+/* Payment Icons */
+.payments i {
+    font-size: 40px;
+    margin: 10px;
+    color: #555;
+}
+
+/* Social Icons */
+.social i {
+    font-size: 30px;
+    margin: 10px;
+    color: white;
+}
+
+/* Footer */
+footer {
+    background: #0a1a2f;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+    <div class="logo">LotoTech</div>
+    <nav>
+        <a href="#home"><i class="fas fa-house"></i>Home</a>
+        <a href="#products"><i class="fas fa-store"></i>Products</a>
+        <a href="#about"><i class="fas fa-user"></i>About</a>
+    </nav>
+</header>
+
+<section id="home">
+    <h1>Welcome to LotoTech</h1>
+    <p>Your trusted platform for premium PDFs & images</p>
+
+    <div class="social">
+        <a href="#"><i class="fab fa-facebook"></i></a>
+        <a href="#"><i class="fab fa-instagram"></i></a>
+        <a href="#"><i class="fab fa-x-twitter"></i></a>
+        <a href="#"><i class="fab fa-linkedin"></i></a>
+        <a href="#"><i class="fab fa-youtube"></i></a>
+    </div>
+</section>
+
+<section id="products">
+    <h2>Our Products</h2>
+    <div class="products">
+        <div class="card">
+            <i class="fas fa-file-pdf"></i>
+            <h3>Premium PDFs</h3>
+            <p>High-quality digital documents</p>
+        </div>
+        <div class="card">
+            <i class="fas fa-image"></i>
+            <h3>Stock Images</h3>
+            <p>Professional images for projects</p>
+        </div>
+        <div class="card">
+            <i class="fas fa-download"></i>
+            <h3>Instant Download</h3>
+            <p>Fast & secure access</p>
+        </div>
+    </div>
+
+    <h3>Accepted Payments</h3>
+    <div class="payments">
+        <i class="fab fa-cc-visa"></i>
+        <i class="fab fa-cc-mastercard"></i>
+        <i class="fab fa-cc-paypal"></i>
+        <i class="fab fa-cc-amex"></i>
+        <i class="fab fa-bitcoin"></i>
+    </div>
+</section>
+
+<section id="about">
+    <h2>About Us</h2>
+    <p>
+        LotoTech is a digital marketplace focused on providing high-quality PDFs
+        and images for businesses, students, and creators worldwide.
+    </p>
+</section>
+
+<footer>
+    © 2026 LotoTech. All rights reserved.
+</footer>
+
+</body>
+</html>
